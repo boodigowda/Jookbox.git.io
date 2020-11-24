@@ -1,0 +1,167 @@
+body {
+  background-color: black;
+}
+form a {
+  color: white;
+  font-size: 25px;
+}
+.collapse .navbar-nav .nav-item {
+  padding: 20px;
+}
+.collapse .navbar-nav .nav-item a {
+  color: white;
+  font-weight: 500;
+}
+.collapse .navbar-nav .nav-item a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0px 0px 12px 10px #888888;
+}
+main .row .col-md-4 p {
+  text-align: justify;
+  font-size: 15px;
+  color: white;
+  padding: 10px 80px 10px 80px;
+}
+main .row .col-md-4 .checkbox {
+  font-size: 16px;
+}
+main .row .col-md-4 .checkbox #vehicle1 {
+  color: rgb(0, 255, 255);
+}
+main .row .col-md-4 h1 {
+  font-size: 70px;
+  color: white;
+}
+main .row .col-md-4 p span .radio input[type="radio"] {
+  display: none;
+}
+main .row .col-md-4 p span .radio {
+  padding: 10px;
+}
+main .row .col-md-4 p span .radio .blue {
+  height: 18px;
+  width: 18px;
+  display: block;
+  border-radius: 50%;
+  background-color: rgb(0, 255, 221);
+  position: absolute;
+  top: 345px;
+}
+main .row .col-md-4 p span .radio .red {
+  height: 18px;
+  width: 18px;
+  display: block;
+  border-radius: 50%;
+  background-color: rgb(255, 0, 0);
+  position: absolute;
+  top: 345px;
+}
+main .row .col-md-4 p span .radio .green {
+  height: 18px;
+  width: 18px;
+  display: block;
+  border-radius: 50%;
+  background-color: rgb(21, 255, 0);
+  position: absolute;
+  top: 345px;
+}
+main .row .col-md-4 p span .radio .violet {
+  height: 18px;
+  width: 18px;
+  display: block;
+  border-radius: 50%;
+  background-color: rgb(212, 0, 255);
+  position: absolute;
+  top: 345px;
+}
+main .row .col-md-4 p span .radio span:after {
+  content: "";
+  height: 25px;
+  width: 25px;
+  border: 2px solid white;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 50%;
+  transition: 200ms ease-in-out 0s;
+}
+main .row .col-md-4 p span .radio input[type="radio"]:checked ~ span:after {
+  transform: translate(-50%, -50%) scale(1);
+}
+main .row .col-md-4 .cartBtn {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 8px 15px 8px 15px;
+  background-color: red;
+  text-decoration: none;
+  border-radius: 30px;
+  margin-left: 70px;
+}
+main .row .col-md-4 .money {
+  color: rgb(255, 79, 79);
+  font-size: 17px;
+  font-weight: 500;
+  padding: 8px 20px 8px 20px;
+  border: 1px solid red;
+  text-decoration: none;
+  border-radius: 30px;
+}
+main .row .col-md-4 .media {
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+}
+main .row .col-md-4 .media a i {
+  margin-top: 20px;
+  color: white;
+  padding: 7px;
+}
+main .row .col-md-5 img {
+  max-width: 100%;
+}
+main .row .col-md-3 ul {
+  list-style: none;
+}
+main .row .col-md-3 ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+main .row .col-md-3 .arrows .left {
+  color: white;
+  height: 28px;
+  width: 28px;
+  display: block;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  top: 345px;
+  text-decoration: none;
+}
+main .row .col-md-3 .arrows .right {
+  color: white;
+  height: 28px;
+  width: 28px;
+  display: block;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  top: 345px;
+  left: 60px;
+  text-decoration: none;
+}
+main .row .col-md-3 .arrows .more {
+  color: white;
+  position: absolute;
+  top: 345px;
+  left: 100px;
+  text-decoration: none;
+}
